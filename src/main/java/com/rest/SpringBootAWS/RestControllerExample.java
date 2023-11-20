@@ -17,6 +17,8 @@ public class RestControllerExample {
 		return new ResponseEntity("I was landed on AWS cloud",HttpStatus.ACCEPTED);
 		
 	}*/
+	
+	
 	static int i=0;
 	@Scheduled(fixedRate=1000)
 	public void displayTask(){
